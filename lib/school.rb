@@ -7,7 +7,7 @@ class School
   def initialize(name)
     @school = name
     @roster = {}
-   # @studentArray = []
+    studentArray = []
   end
   def addStudent(student_name, grade)
     studentArray << student_name
