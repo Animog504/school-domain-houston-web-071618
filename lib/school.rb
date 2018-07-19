@@ -13,6 +13,9 @@ class School
     @studentArray << student_name
     @roster[grade.to_s] = @studentArray
   end 
+  def grade(grade)
+    @roster[grade]
+  end
 end 
 
 oaks = School.new("Oak High")
@@ -20,3 +23,4 @@ oaks.addStudent("billy bob joe", 9)
 oaks.addStudent("dick", 10)
 oaks.addStudent("leila", 9)
 puts oaks.roster
+puts oaks.grade(9)
