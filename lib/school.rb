@@ -15,4 +15,4 @@ end
 
 oaks = School.new("Oak High")
 oaks.addStudent("billy bob joe", 9)
-oaks.roster
+puts oaks.roster
