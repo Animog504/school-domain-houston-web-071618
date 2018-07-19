@@ -1,6 +1,8 @@
 # code here!
 
 class School
+  attr_accessor :roster
+  
   
   def initialize(name)
     @school = name
@@ -10,3 +12,7 @@ class School
     @roster << {grade => student_name}
   end 
 end 
+
+oaks = School.new("Oak High")
+oaks.addStudent("billy bob joe", 9)
+oaks.roster
