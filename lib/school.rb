@@ -9,7 +9,7 @@ class School
     @roster = {}
   end
   def addStudent(student_name, grade)
-    @roster =>{grade.to_s =>student_name}
+    @roster =>{grade.to_s =>[student_name]}
   end 
 end 
 
