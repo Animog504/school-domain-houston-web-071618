@@ -14,7 +14,7 @@ class School
     @studentArray ||= @roster[grade]
     @studentArray << student_name
     @roster[grade] = @studentArray
-    @studentArray = []
+    
   end 
   def grade(grade)
     p @roster[grade.to_s]
