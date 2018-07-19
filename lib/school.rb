@@ -23,4 +23,4 @@ oaks.addStudent("billy bob joe", 9)
 oaks.addStudent("dick", 10)
 oaks.addStudent("leila", 9)
 puts oaks.roster
-puts oaks.grade(9)
+p oaks.grade(9)
