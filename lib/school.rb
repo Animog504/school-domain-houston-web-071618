@@ -11,7 +11,9 @@ class School
     @studentArray = [] #temporary array
   end
   def add_student(student_name, grade) 
-    @roster[grade.to_s] = student_name
+    @studentArray = []
+    @studentArray << student_name
+    @roster[grade.to_s] = @studentArray
   end 
   def grade(grade)
     p @roster[grade.to_s]
