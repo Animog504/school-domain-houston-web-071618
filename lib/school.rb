@@ -21,9 +21,9 @@ class School
   end 
 end 
 
-oaks = School.new("Oak High")
-oaks.addStudent("billy bob joe", 9)
-oaks.addStudent("dick", 10)
-oaks.addStudent("leila", 9)
-puts oaks.roster
-p oaks.grade(9)
+#oaks = School.new("Oak High")
+#oaks.addStudent("billy bob joe", 9)
+#oaks.addStudent("dick", 10)
+#oaks.addStudent("leila", 9)
+#puts oaks.roster
+#p oaks.grade(9)
