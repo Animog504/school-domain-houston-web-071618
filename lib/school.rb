@@ -1,7 +1,7 @@
 # code here!
 
 class School
-  attr_accessor :roster
+  attr_accessor :roster, :studentArray, :school
   
   
   def initialize(name)
@@ -9,7 +9,7 @@ class School
     @roster = {}
     @studentArray = []
   end
-  def addStudent(student_name, grade)
+  def addStudent(student_name, grade) #has to be able to add one or more students
     @studentArray = @roster[grade.to_s]
     @studentArray << student_name
     @roster[grade.to_s] = @studentArray
