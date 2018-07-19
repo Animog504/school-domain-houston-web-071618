@@ -1,7 +1,8 @@
 # code here!
 
 class School
-  attr_accessor :roster, :studentArray, :school
+  attr_writer :school
+  attr_reader :roster
   
   
   def initialize(name)
@@ -36,5 +37,5 @@ oaks = School.new("Oak High")
 oaks.addStudent("billy bob joe", 9)
 oaks.addStudent("dick", 10)
 oaks.addStudent("leila", 9)
-puts oaks.roster
+oaks.roster
 oaks.grade(9)
