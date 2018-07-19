@@ -10,14 +10,24 @@ class School
     @studentArray = []
   end
   def addStudent(student_name, grade)
+    @studentArray = @roster[grade.to_s]
     @studentArray << student_name
     @roster[grade.to_s] = @studentArray
   end 
   def grade(grade)
     @roster[grade.to_s]
   end
-  def sortS(studentArray)
-    @studentArray.sort
+ 
+  
+    #something that pulls out the arraylist
+    #then adds the student to it and places
+    #it back in hash
+    
+     
+    
+  
+  def sort(studentArray)
+    #@studentArray.sort
   end 
 end 
 
