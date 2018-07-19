@@ -13,7 +13,7 @@ class School
   def add_student(student_name, grade) 
     @studentArray ||= @roster[grade.to_s]
     @studentArray << student_name
-    @roster[grade.to_s] = @studentArray
+    @roster[grade] = @studentArray
     @studentArray = []
   end 
   def grade(grade)
