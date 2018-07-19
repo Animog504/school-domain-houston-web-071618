@@ -16,6 +16,9 @@ class School
   def grade(grade)
     @roster[grade.to_s]
   end
+  def sort(studentArray)
+    grade.sort
+  end 
 end 
 
 oaks = School.new("Oak High")
