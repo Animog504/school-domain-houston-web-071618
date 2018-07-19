@@ -16,7 +16,7 @@ class School
   def grade(grade)
     @roster[grade.to_s]
   end
-  def sort(studentArray)
+  def sortS(studentArray)
     @studentArray.sort
   end 
 end 
