@@ -14,7 +14,7 @@ class School
     @roster[grade.to_s] = @studentArray
   end 
   def grade(grade)
-    @roster[grade]
+    @roster[grade.to_s]
   end
 end 
 
