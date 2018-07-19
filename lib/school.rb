@@ -8,14 +8,10 @@ class School
   def initialize(name)
     @school = name
     @roster = {}
-    @studentArray = []
+    @studentArray = [] #temporary array
   end
-  def add_student(student_name, grade) #has to be able to add one or more students
-    #@studentArray ||= @roster[grade.to_s]
-    @studentArray ||= []
-    @studentArray << student_name
-    @roster[grade.to_s] = @studentArray
- 
+  def add_student(student_name, grade) 
+    @roster[grade.to_s] = student_name
   end 
   def grade(grade)
     p @roster[grade.to_s]
