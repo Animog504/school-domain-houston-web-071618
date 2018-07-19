@@ -17,9 +17,7 @@ class School
     @roster[grade.to_s]
   end
   def sort(studentArray)
-    @roster.map do |grade, array|
-      array.sort
-      
+    @studentArray.sort
   end 
 end 
 
