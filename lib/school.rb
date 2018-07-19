@@ -10,7 +10,7 @@ class School
     @studentArray = []
   end
   def add_student(student_name, grade) #has to be able to add one or more students
-    @studentArray = @roster[grade.to_s]
+    @studentArray ||= @roster[grade.to_s]
     @studentArray << student_name
     @roster[grade.to_s] = @studentArray
   end 
