@@ -34,8 +34,8 @@ class School
 end 
 
 oaks = School.new("Oak High")
-oaks.addStudent("billy bob joe", 9)
-oaks.addStudent("dick", 10)
-oaks.addStudent("leila", 9)
+oaks.add_student("billy bob joe", 9)
+oaks.add_student("dick", 10)
+oaks.add_student("leila", 9)
 oaks.roster
 oaks.grade(9)
